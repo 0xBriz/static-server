@@ -5,7 +5,7 @@ import { join } from 'path';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(process.cwd(), '..', 'aalto_frontend/public'),
+      rootPath: join(process.cwd(), '..', 'aalto_frontend/build'),
     }),
   ],
 })
